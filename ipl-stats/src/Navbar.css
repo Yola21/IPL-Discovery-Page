@@ -1,0 +1,86 @@
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #fff;
+    background: radial-gradient( #1a275e, rgb(9, 9, 95));
+    box-shadow: 1px 5px 8px #000;
+    z-index: 1;
+}
+
+.navbar__Logo{
+    width: 100px;
+    height: 60px;
+    object-fit: cover;
+}
+
+.navbar__Links{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar__Title{
+    text-decoration: none;
+    color: inherit;
+    font-size: 20px;
+    margin: 0 20px;
+    background-size: 200% 200%;
+    background-image: linear-gradient( transparent 50%, #979ec7 50%);
+    transition: background-position 300ms, color 300ms ease, border-color 300ms ease;
+}
+
+.navbar__Title:hover, .navbar__Title:focus{
+    color: #02044d;
+    font-weight: 600;
+    background-image: linear-gradient( transparent 50%, #979ec7 50%);
+    background-position: 0% 100%;
+}
+
+.navbar__Title > a{
+    text-decoration: none;
+    color: white;
+}
+
+.navbar__Title > a:hover{
+    text-decoration: none;
+    color: #02044d;
+}
+
+#nav-dropdown-1, #nav-dropdown-2{
+    color: #fff;
+}
+
+#nav-dropdown-1:hover, #nav-dropdown-2:hover{
+    color: #02044d;
+}
+
+.navbarDropdown{
+    font-weight: 500 !important;
+}
+
+.navbarDropdown:hover{
+    background-color: rgb(78, 118, 228) !important;
+    color: white !important;
+    border-radius: 5px;
+}
+
+.navbarSearch > input{
+    border: none;
+    outline: none;
+    width: 100%;
+    background-color: transparent;
+}
+
+.navbarSearch{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+    min-width: 250px;
+    max-height: 40px;
+    background-color: white;
+    color: black;
+    margin-right: 35px;
+    padding: 7px;
+}

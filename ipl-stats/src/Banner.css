@@ -1,0 +1,7 @@
+.banner_image{
+    width: 90vw;
+    height: 70vh;
+    mask-image: linear-gradient(to bottom, blue 50%, transparent 100%);
+    z-index: -1;
+    /* object-fit: cover; */
+}

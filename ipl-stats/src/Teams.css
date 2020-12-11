@@ -1,0 +1,130 @@
+#teams{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    margin-top: -25px;
+    background-color: #f5f0f0;
+    width: 90vw;
+
+}
+
+.team_logo{
+    width: 15vw;
+}
+
+.team_tab_label{
+    font-size: 20px !important;
+    font-weight: 700 !important;
+}
+
+.MuiTab-wrapper{
+    color: navy;
+}
+
+.team_body{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.team_card{
+    position: relative;
+    box-shadow: 10px 10px 8px rgb(166, 169, 172) !important;
+    width: 27rem;
+    height: 27rem;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    /* border-top: 8px solid navy; */
+}
+
+.MuiCardContent-root{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.MuiCardContent-root > h4{
+    /* margin-top: 1.5rem !important; */
+    font-size: 1.7rem !important; 
+}
+
+.team_card_overlay{
+    position: absolute;
+    bottom: 100%;
+    overflow: hidden;
+    width: 27rem;
+    height:0;
+    transition: .5s ease;
+}
+
+.team_card:hover .team_card_overlay{
+    bottom: 0;
+    height: 100%;
+    opacity: 0.9;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Castoro&display=swap');
+.team_card_text{
+    color: white;
+    font-size: 50px;
+    font-weight: 800;
+    font-family: 'Castoro', serif;
+    position: absolute;
+    opacity: 1;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital@1&display=swap');
+.MuiTypography-body1{
+    font-family: 'Libre Baskerville', serif !important;
+    font-weight: 900 !important; 
+}
+
+/* .team_tableHead{
+    background-color: #03045e;
+} */
+
+.MuiTableCell-alignRight{
+    color: white !important;
+    font-weight: 500 !important;
+}
+
+.team_appbar{
+    background: white !important;
+    /* color: blue !important; */
+}
+
+.PrivateTabIndicator-colorPrimary-7{
+    color: orangered;
+}
+
+.MuiSvgIcon-root{
+    fill: black !important;
+}
+
+.MuiTabs-indicator{
+    height: 5px !important;
+}
+
+.team_info-2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 5px;
+    /* align-items: center; */
+}
+
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
+p{
+    font-weight: 600 !important;
+    font-size: 22px !important; 
+    font-family: 'PT Serif', serif;
+    color: #212529;
+}

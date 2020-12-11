@@ -1,0 +1,38 @@
+.players{
+    margin-top: 15px;
+    padding: 15px;
+    background-color: #fafafa;
+}
+
+.players_filter{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.players_autocomplete{
+    margin: 0 10px;
+}
+
+.players_table{
+    margin-top: 15px;
+}
+
+.players_table_paper{
+    width: 100%;
+}
+
+.players_table_container{
+    max-height: 69vh;
+}
+
+.MuiTableRow-root:nth-child(even){
+    background-color: #8c9eff;
+}
+
+.MuiTableRow-root:nth-child(even):hover{
+    background-color: #8c9eff !important;
+}
+
+.players-table .MuiTableBody-root .MuiTableRow-root:nth-child(odd):hover{
+    background-color: #fff !important;
+}
