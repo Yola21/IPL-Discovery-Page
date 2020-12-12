@@ -31,6 +31,7 @@
 <p> Open Dev Tools on your browser -> Performance -> Click on Reload icon to calculate page load time </p> 
 
 ---
+
 ## Features
 
    - [x] Discover Player or Team
