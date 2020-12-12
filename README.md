@@ -12,6 +12,7 @@
 
 <p align="center">
  <a href="#about">About</a> •
+ <a href="#page-load-time">Page Load Time</a> •
  <a href="#features">Features</a> •
  <a href="#glimpse">Glimpse</a> • 
  <a href="#how-it-works">How it works</a> • 
@@ -24,6 +25,12 @@
 🏏 IPL Discovery Page - is an IPL Page where one can discover the statistics of any particular Player, or Team. 
 ---
 
+## Page Load Time
+<p> Page Load Time of this web app is: 21ms </p>
+<p> How to calculate: </p>
+<p> Open Dev Tools on your browser -> Performance -> Click on Reload icon to calculate page load time </p> 
+
+---
 ## Features
 
    - [x] Discover Player or Team
