@@ -13,7 +13,7 @@
 <p align="center">
  <a href="#about">About</a> •
  <a href="#features">Features</a> •
- <a href="#screenshots">Screenshots</a> • 
+ <a href="#glimpse">Glimpse</a> • 
  <a href="#how-it-works">How it works</a> • 
  <a href="#tech-stack">Tech Stack</a> 
 </p>
@@ -31,19 +31,12 @@
    - [x] Statistics of player 
 ---
 
-## Screenshots
+## Glimpse
 
 <p align="center">
-  <img alt="cases" src="https://github.com/Yola21/IPL-Discovery-Page/blob/main/ipl-stats/screenshots/Screenshot%20(277).png">
+  <img alt="cases" src="https://github.com/Yola21/IPL-Discovery-Page/blob/main/ipl-stats/screenshots/IPL-Stats.gif">
 </p>
 
-<p align="center">
-  <img alt="cases" src="https://github.com/Yola21/IPL-Discovery-Page/blob/main/ipl-stats/screenshots/Screenshot%20(278).png">
-</p>
-
-<p align="center">
-  <img alt="cases" src="https://github.com/Yola21/IPL-Discovery-Page/blob/main/ipl-stats/screenshots/Screenshot%20(279).png">
-</p>
 ---
 
 ## How it works
