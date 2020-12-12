@@ -212,7 +212,7 @@ export const TeamwiseRuns = [
         "away_matches":"95",
         "home_win_percentage":"41.17647058823529",
         "away_win_percentage":"51.578947368421055",
-        "src":"https://cdn.freelogovectors.net/wp-content/uploads/2018/08/Royal-Challengers-Bangalore-logo.png",
+        "src":"https://www.searchpng.com/wp-content/uploads/2019/02/Royal-Challengers-Bangalore-Logo-PNG-715x715.png",
         "width":"15vw",
         "backgroundcolor":"#ff9100",
         "borderTop":"8px solid #ff9100",

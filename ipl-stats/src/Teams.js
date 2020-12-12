@@ -105,7 +105,6 @@ function Teams() {
                                   className="team_logo" 
                                   src={data.src} 
                                   alt={data.team}
-                                  style={{width: data.width }}
                                 />
                                 <br/>
                                 <div className="team_card_overlay" style={{backgroundColor: data.backgroundcolor}}>

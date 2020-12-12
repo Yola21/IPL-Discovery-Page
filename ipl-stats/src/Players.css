@@ -10,6 +10,8 @@
 }
 
 .players_autocomplete{
+    width: 250px;
+    background-color: white;
     margin: 0 10px;
 }
 
@@ -35,4 +37,47 @@
 
 .players-table .MuiTableBody-root .MuiTableRow-root:nth-child(odd):hover{
     background-color: #fff !important;
+}
+
+
+
+
+@media (max-width: 700px){
+    .players_autocomplete{
+        width: 130px;
+    }
+
+    #grouped-country-label, #grouped-player-label, #combo-box-teams-label, #combo-box-seasons-label{
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 550px){
+    .players_autocomplete{
+        width: 100px;
+    }
+
+    #grouped-country-label, #grouped-player-label, #combo-box-teams-label, #combo-box-seasons-label{
+        font-size: 8px;
+    }
+}
+
+@media (max-width: 500px){
+    .players_autocomplete{
+        width: 80px;
+    }
+
+    #grouped-country-label, #grouped-player-label, #combo-box-teams-label, #combo-box-seasons-label{
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 400px){
+    .players_autocomplete{
+        width: 55px;
+    }
+
+    #grouped-country-label, #grouped-player-label, #combo-box-teams-label, #combo-box-seasons-label{
+        font-size: 10px;
+    }
 }

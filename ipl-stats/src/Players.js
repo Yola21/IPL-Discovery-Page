@@ -107,7 +107,6 @@ function Players() {
                     options={countries.sort((a, b) => -b.firstletter.localeCompare(a.firstletter))}
                     groupBy={(option) => option.firstletter}
                     getOptionLabel={(option) => option.country}
-                    style={{width: 250, backgroundColor: "white"}}
                     renderInput={(params) => <TextField {...params} label="Filter by Country" variant="outlined" />}
                 />
 
@@ -117,7 +116,6 @@ function Players() {
                     options={options.sort((a, b) => -b.firstletter.localeCompare(a.firstletter))}
                     groupBy={(option) => option.firstletter}
                     getOptionLabel={(option) => option.batsman}
-                    style={{width: 250, backgroundColor: "white"}}
                     renderInput={(params) => <TextField {...params} label="Filter by Player" variant="outlined" />}
                 />
 
@@ -126,7 +124,6 @@ function Players() {
                     id="combo-box-teams"
                     options={TeamwiseRuns}
                     getOptionLabel={(option) => option.team}
-                    style={{ width: 250, backgroundColor: "white" }}
                     renderInput={(params) => <TextField {...params} label="Filter by Team" variant="outlined" />}
                 />
 
@@ -135,7 +132,6 @@ function Players() {
                     id="combo-box-seasons"
                     options={Seasons}
                     getOptionLabel={(option) => option.season}
-                    style={{ width: 250, backgroundColor: "white" }}
                     renderInput={(params) => <TextField {...params} label="Filter by Season" variant="outlined" />}
                 />
             </div>
@@ -163,7 +159,7 @@ function Players() {
                                                 const value = detail[column.id];
                                                 return (
                                                 <TableCell key={column.id}>
-                                                    {value === 'number' ? value.toFixed(2) : value}
+                                                    {typeof value === 'number' ? Math.round(value) : value}
                                                 </TableCell>
                                                 );
                                             })}
